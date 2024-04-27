@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .border-style {
+        @apply border-solid border-2 border-black w-[500px]
+    }
+
+    .input-style {
+        @apply bg-slate-300 border-solid border-2 border-black w-full
+    }
+
+    .button-style {
+        @apply border-solid border-2 border-black w-[100px] mt-5 bg-blue-300 rounded-full hover:bg-blue-500
+    }
+}
